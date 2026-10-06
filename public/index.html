@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Erika's Car Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header>
+   <h1>Car Portal</h1>
+   <p>A complete Node.js + Express demonstration</p>
+ </header>
+
+ <main>
+   <section>
+     <h2>Cars I've owned in previous years</h2>
+     <button id="loadCars">Load Cars</button>
+     <div id="cars"></div>
+   </section>
+
+   <section>
+     <h2>Find a Car by ID</h2>
+     <form id="carForm">
+      <label for="carId">Car ID:</label>
+      <input id="carId" type="number" min="1" required>
+      <button type="submit">Find Car</button>
+     </form>
+     <div id="carResult"></div>
+   </section>
+
+   <section>
+     <h2>Express-Generated Page</h2>
+     <p><a href="/about">Visit the About route</a></p>
+   </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
